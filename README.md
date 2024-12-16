@@ -1,4 +1,4 @@
-# 💫 About Me:
+# 💫 About Me: Thuve Rakan
 🔭 I’m currently working on expanding my skills in web/app development and contributing to innovative projects.  <br>🎓 I’m currently studying BSc in Information Technology at **SLIIT**.  <br>🤝 I’m looking for help with advanced technologies and frameworks in development.  <br>🌱 I’m currently learning new web technologies and frameworks.  <br>💬 Ask me about my development projects or any fun facts related to tech.  <br>⚡ Fun fact: I enjoy working on innovative web development projects and constantly challenge myself to learn new technologies and frameworks to stay ahead in the ever-evolving tech world.<br><br>
 
 
