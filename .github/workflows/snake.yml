@@ -1,32 +1,30 @@
-name: Generate GitHub Snake
+name: Generate GitHub Snake Animation
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # Run daily at midnight UTC
-  workflow_dispatch:
+    - cron: "0 0 * * *"    # runs every day at midnight UTC
+  workflow_dispatch:       # manual trigger option
 
 jobs:
   generate-snake:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout repo
         uses: actions/checkout@v3
 
       - name: Generate snake game from GitHub contribution grid
         uses: Platane/snk@v3.3.0
         with:
-          github_user_name: thuve-codes    # <-- Replace with your GitHub username
-          # github_token: ${{ secrets.GITHUB_TOKEN }}  # optional, default is the action token
+          github_user_name: thuve-codes
           outputs: |
-            github-contribution-grid-snake.svg?palette=github-light&color_snake=#4A90E2
-            github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#82C91E
-            github-contribution-grid-snake-ocean.gif?palette=github&color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+            github-snake.svg?palette=github&color_snake=blue
+            github-snake-dark.svg?palette=github-dark&color_snake=green
 
       - name: Commit and push generated SVGs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add .
-          git commit -m "Update GitHub contribution snake animation" || echo "No changes to commit"
-          git push origin HEAD:output
+          git add github-snake.svg github-snake-dark.svg
+          git commit -m "Update GitHub snake animation" || echo "No changes to commit"
+          git push
