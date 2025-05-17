@@ -2,8 +2,11 @@ name: Generate GitHub Snake Animation
 
 on:
   schedule:
-    - cron: "0 0 * * *"    # runs every day at midnight UTC
+    - cron: "0 0 * * *"  # runs every day at midnight UTC
   workflow_dispatch:
+
+permissions:
+  contents: write  # Grant permissions to push changes
 
 jobs:
   generate-snake:
@@ -22,9 +25,14 @@ jobs:
             github-snake-dark.svg?palette=github-dark&color_snake=green
 
       - name: Commit and push generated SVGs
+        env:
+          # Use the default token, or replace with your personal PAT token secret
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "thuve-codes"
           git config user.email "thuve-codes@users.noreply.github.com"
           git add .
           git commit -m "Update GitHub Snake animation" || echo "No changes to commit"
-          git push https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/thuve-codes/thuve-codes.git
+          
+          # Push using the environment token for authentication
+          git push https://x-access-token:${GITHUB_TOKEN}@github.com/thuve-codes/thuve-codes.git
