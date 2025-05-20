@@ -1,9 +1,7 @@
 <h1 align="center">Hi 👋, I'm Thuve Rakan</h1>
 
 <p align="center">
-  🎓 3rd-year Software Engineering student at SLIIT with a passion for creating meaningful web and mobile applications.<br />
-  💻 Skilled in the MERN Stack, Android Development, and Java.<br />
-  🌍 Active contributor to open-source projects and always eager to learn and innovate.
+  I am a 3rd-year Software Engineering student at SLIIT with a strong passion for building meaningful web and mobile applications. I specialize in the MERN stack, Android development, and Java programming. In addition to my academic projects, I actively contribute to open-source initiatives and continuously strive to expand my skills and create impactful software solutions.
 </p>
 
 
