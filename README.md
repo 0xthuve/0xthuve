@@ -85,7 +85,8 @@
   </a>
   <a href="https://buymeacoffee.com/thuvecodes" target="_blank">
     <img src="https://img.shields.io/badge/Buy%20me%20a%20coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black" alt="Buy me a coffee" />
-  </a
+  </a>
+</p>
 
 
 ### 🐍 GitHub Contribution Grid Snake
