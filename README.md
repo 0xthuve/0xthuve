@@ -83,7 +83,9 @@
   <a href="https://www.instagram.com/thuve1004.ofi" target="_blank">
     <img src="https://img.shields.io/badge/instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
   </a>
-</p>
+  <a href="https://buymeacoffee.com/thuvecodes" target="_blank">
+    <img src="https://img.shields.io/badge/Buy%20me%20a%20coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black" alt="Buy me a coffee" />
+  </a
 
 
 ### 🐍 GitHub Contribution Grid Snake
