@@ -17,16 +17,16 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=0xthuve&show_icons=true&theme=react&locale=en" alt="Thuve's GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=thuver104&show_icons=true&theme=react&locale=en" alt="Thuve's GitHub Stats" />
 </p>
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=0xthuve&theme=react" alt="GitHub Streak Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=thuver104&theme=react" alt="GitHub Streak Stats" />
 </p>
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=0xthuve&layout=compact&theme=react" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=thuver104&layout=compact&theme=react" alt="Top Languages" />
 </p>
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=0xthuve&theme=onestar" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=thuver104&theme=onestar" alt="GitHub Trophies" />
 </p>
 
 ---
@@ -52,7 +52,7 @@
 ### 🐍 GitHub Contribution Grid Snake
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/0xthuve/0xthuve/main/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/0xthuve/0xthuve/main/github-snake.svg" />
-  <img alt="GitHub Contribution Snake Animation" src="https://raw.githubusercontent.com/0xthuve/0xthuve/main/github-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/thuver104/thuver104/main/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/thuver104/thuver104/main/github-snake.svg" />
+  <img alt="GitHub Contribution Snake Animation" src="https://raw.githubusercontent.com/thuver104/thuver104/main/github-snake.svg" />
 </picture>
